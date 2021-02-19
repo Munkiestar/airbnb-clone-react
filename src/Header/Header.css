@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  background-color: #fff;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+}
+
+.header__logo {
+  height: 60px;
+  object-fit: contain;
+  margin: 20px;
+}
+
+.header__center {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: fit-content;
+  padding: 10px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+}
+
+.header__center > input {
+  border: none;
+  width: 250px;
+  font-size: 1.2rem;
+  margin: 10px;
+  outline-width: 0; /* removes the outline focus border */
+}
+
+.header__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20vw;
+  margin: 20px;
+}
