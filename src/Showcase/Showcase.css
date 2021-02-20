@@ -1,0 +1,81 @@
+:root {
+  --btn-color-bgc-red: #ff7779;
+  --text-color: #fff;
+
+  --btn-color-bgc-white: #fff;
+  --text-color--red: #ff7779;
+
+  --hover-btn-color-bgc-white: #fff;
+  --hover-text-color: #ff7779;
+}
+
+.showcase {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  object-fit: cover;
+  top: 0;
+  bottom: 0;
+}
+
+.showcase__img {
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.showcase__info {
+  transform: translate(0%, 40%);
+  width: 90%;
+  height: 150px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  padding: 2rem;
+  color: #fff;
+}
+
+.showcase__search {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+}
+
+.showcase__btnSearch {
+  z-index: 90;
+  background-color: var(--btn-color-bgc-white) !important;
+  color: var(--btn-color-bgc-red) !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  padding: 10px !important;
+}
+
+.showcase__btn {
+  background-color: var(--btn-color-bgc-red) !important;
+  color: var(--text-color) !important;
+  text-transform: inherit !important;
+}
+
+.showcase__btn:hover {
+  background-color: var(--hover-btn-color-bgc-white) !important;
+  color: var(--hover-text-color) !important;
+}
+
+@media screen and (max-width: 1140px) {
+  .showcase__img {
+    top: 0;
+  }
+
+  .showcase__info {
+    transform: translate(0%, 0%);
+  }
+}
