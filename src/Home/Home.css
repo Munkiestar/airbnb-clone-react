@@ -1,6 +1,6 @@
 .home {
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  /*height: auto;*/
 }
 
 .home__section {

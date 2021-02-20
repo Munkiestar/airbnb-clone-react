@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   position: sticky;
@@ -38,6 +39,32 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 20vw;
+  width: 23vw;
   margin: 20px;
+}
+
+@media screen and (max-width: 840px) {
+  .header__center {
+    margin-right: 20px;
+    width: 100%;
+  }
+
+  .header__right {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 1rem;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 575px) {
+  .header {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .header__center {
+    margin: 0 auto 1rem;
+    width: 100%;
+  }
 }

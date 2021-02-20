@@ -9,10 +9,10 @@ import { Avatar } from "@material-ui/core";
 
 import "./Header.css";
 
-function Header(props) {
+function Header() {
   return (
     <div className="header">
-      <img src={airbnb_logo} alt="" className="header__logo" />
+      <img src={airbnb_logo} alt="Airbnb Logo" className="header__logo" />
 
       <div className="header__center">
         <input type="text" />
