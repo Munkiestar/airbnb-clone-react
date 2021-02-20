@@ -29,9 +29,9 @@
 }
 
 .showcase__info {
-  transform: translate(0%, 40%);
+  transform: translate(0%, 50%);
   width: 90%;
-  height: 150px;
+  height: 200px;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -70,7 +70,7 @@
   color: var(--hover-text-color) !important;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 900px) {
   .showcase__img {
     top: 0;
   }
