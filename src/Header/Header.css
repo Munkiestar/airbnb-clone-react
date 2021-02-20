@@ -10,7 +10,7 @@
 }
 
 .header__logo {
-  height: 60px;
+  height: 3.75rem;
   object-fit: contain;
   margin: 20px;
 }
@@ -21,14 +21,14 @@
   flex: 1;
   max-width: fit-content;
   padding: 10px;
-  height: 30px;
+  height: 1.875rem;
   border: 1px solid lightgray;
   border-radius: 999px;
 }
 
 .header__center > input {
   border: none;
-  width: 250px;
+  width: 15.625rem;
   font-size: 1.2rem;
   margin: 10px;
   outline-width: 0; /* removes the outline focus border */
