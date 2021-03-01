@@ -4,12 +4,12 @@
 }
 
 .home__section {
-  width: 100%;
+  width: 96vw;
   display: grid;
   gap: 0.6rem;
   grid-template-columns: repeat(3, 1fr);
-  margin: auto;
-  padding: 8px 1rem;
+  margin: 0 auto;
+  padding: 8px 1.2rem;
 }
 
 @media screen and (max-width: 870px) {

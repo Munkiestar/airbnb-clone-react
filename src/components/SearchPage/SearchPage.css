@@ -1,0 +1,18 @@
+.searchPage {
+  padding: 1.3rem;
+}
+
+.searchPage__info > p {
+  margin-bottom: 0.8rem;
+  font-size: 14px;
+}
+
+.searchPage__info > h1 {
+  margin-bottom: 2.2rem;
+}
+
+.searchPage__info button {
+  border-radius: 2.2rem;
+  text-transform: inherit;
+  margin: 0.5rem;
+}
