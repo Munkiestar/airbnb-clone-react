@@ -3,9 +3,12 @@ import React, { useState } from "react";
 import "./Showcase.css";
 import { Button } from "@material-ui/core";
 import Search from "../Search/Search";
+import { useHistory } from "react-router-dom";
 
 function Showcase() {
   const [showSearch, setShowSearch] = useState(false);
+  const history = useHistory();
+
   return (
     <div className="showcase">
       <div className="showcase__search">
@@ -33,7 +36,11 @@ function Showcase() {
           Plan a different kind of getaway to uncover the hidden gems near you.
         </h5>
 
-        <Button className="showcase__btn" variant="outlined">
+        <Button
+          onClick={() => history.push("./search")}
+          className="showcase__btn"
+          variant="outlined"
+        >
           Explore nearby stays
         </Button>
       </div>
